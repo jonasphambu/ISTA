@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactez ISTA MATADI</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link rel="stylesheet" href="../style/contact.css">
+</head>
+<body>
+      <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="../logo/logo-ista.JPG"><h1>ISTA/Matadi</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="../index.html" class="nav-link">Accueil</a></li>
+                    <li><a href="apropos.html" class="nav-link">Apropos</a></li>
+                    <li><a href="section.html" class="nav-link">Section</a></li>
+                    <li><a href="inscription.html" class="nav-link">Inscription</a></li>
+                    <li><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+     <!-- Hero Section -->
+    <section class="about-hero">
+        <div class="container">
+            <div class="about-hero-content">
+                <h2>Contactez-nous !</h2>
+                <p>Contactez-nous pour Acceder à plus d'Informations de l'ISTA/Matadi</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contactez-nous</h2>
+                <p>N'hésitez pas à nous contacter pour toute question ou information</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Notre Adresse</h3>
+                            <p>/Matan°20,AV/Diankenda lubaluka,Q/Ville haute, <br>COMdi, REFERENCE:ECOLE NSADISI/USINE <br>
+                         MAZA<br>République Démocratique du Congo,Kongo-Central/Matadi</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Numéro de Téléphone</h3>
+                            <p>+243 897586705 <br>+243 898554188</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Adresse Email</h3>
+                            <p>istaMatadi@gmail.cd<br>info@utm.cd</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Heures d'Ouverture</h3>
+                            <p>Lundi - Vendredi: 12h00 - 19h00<br>Samedi: 9h00 - 13h00<br>Dimanche: Fermé</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom Complet</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Adresse Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Sujet</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <a type="submit" class="btn" href="https://wa.me/243898554188" target="_blank">Envoyer un Message ></a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Notre Localisation</h2>
+                <p>Retrouvez-nous à Matadi, dans la province du Kongo Central</p>
+            </div>
+            <div class="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>L’Institut Supérieur des Techniques Appliquées de Matadi</h3>
+                    <p>/Matan°20,AV/Diankenda lubaluka,Q/Ville haute, <br>COMdi, REFERENCE:ECOLE NSADISI/USINE <br>
+                         MAZA<br>République Démocratique du Congo,Kongo-Central/Matadi</p>
+                    <p>Email:<a href="istamatadi@gmail">istamatadi@gmail</a> </p>
+                    <p>Phone : +243 897586705, +243 898554188</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Liens rapides</h3>
+                    <a href="../index.html">Accueil</a>
+                    <a href="section.html">Section</a>
+                    <a href="apropos.html">À propos</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Ressources</h3>
+                    <a href="section.html">Espace étudiant</a>
+                    <a href="../index.html">Espace enseignant</a>
+                    <a href="apropos.html">Médiathèque</a>
+                    <a href="apropos.html">Actualités</a>
+                    <a href="apropos.html">Événements</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 L’Institut Supérieur des Techniques Appliquées de Matadi. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script src="../script/contact.js">
+
+    </script>
+</body>
+</html>
