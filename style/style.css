@@ -299,6 +299,7 @@
             z-index: 1;
             opacity: 0;
             transform: translateY(20px);
+
         }
 
         .faculty-card.animated {
@@ -430,7 +431,7 @@
         /* Teachers Section */
         .teachers {
             padding: 5rem 0;
-            background-color: #c4c2c2;
+            background-color: #fdfdfd;
             opacity: 0;
             transform: translateY(30px);
             transition: opacity 0.8s ease, transform 0.8s ease;
@@ -448,7 +449,7 @@
         }
 
         .teacher-card {
-            background-color: white;
+            background-color: rgba(37, 0, 248, 0.705);
             border-radius: 8px;
             overflow: hidden;
             box-shadow: var(--shadow);
@@ -482,7 +483,7 @@
 
         .teacher-card:hover .teacher-image {
             transform: scale(1.05);
-            border-color: var(--primary-color);
+            border-color: #fff;
         }
 
         .teacher-image img {
@@ -494,7 +495,7 @@
         .teacher-card h3 {
             font-size: 1.5rem;
             margin-bottom: 0.5rem;
-            color: var(--dark-color);
+            color: #ffd000;
         }
 
         .teacher-domain {
@@ -504,7 +505,7 @@
         }
 
         .teacher-card p {
-            color: #666;
+            color: #fff;
             margin-bottom: 1.5rem;
         }
 
